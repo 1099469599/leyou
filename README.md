@@ -17,7 +17,8 @@ https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1
 https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86.md#224%E7%BB%95%E8%BF%87%E7%BD%91%E5%85%B3
 注意一下：这个链接的方案是不对的。需要采取这种方法
 比如说：http://api.leyou.com/api/item/brand/page   映射成   item-service/brand/page  
-比如说：http://api.leyou.com/api/upload/image      映射成   upload-service/upload/image   
+http://api.leyou.com/api/upload/image      映射成   upload-service/upload/image   
+```html
 zuul:
   prefix: /api # 添加路由前缀
   retryable: true
@@ -27,3 +28,4 @@ zuul:
         path: /upload/**
         serviceId: upload-service
         strip-prefix: false
+```
