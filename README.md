@@ -9,3 +9,6 @@ https://github.com/coder-lzh/leyou/blob/master/day06-webpack/day06.md#73%E5%BC%8
 
 ## qs工具的使用
 https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86.md#132qs%E5%B7%A5%E5%85%B7
+
+## 子组件调用父组件方法
+https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86.md#14%E6%96%B0%E5%A2%9E%E5%AE%8C%E6%88%90%E5%90%8E%E5%85%B3%E9%97%AD%E7%AA%97%E5%8F%A3
