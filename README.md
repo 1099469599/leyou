@@ -35,4 +35,6 @@ zuul:
 测试安装成功命令 在 /etc/fdfs 下 执行  成功会返回一个路径
 /usr/bin/fdfs_upload_file  client.conf /2.png
 
+我安装的时候nginx路径是 /usr/sbin/nginx   配置文件是 /etc/nginx/nginx.conf
+
 https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86/centos%E5%AE%89%E8%A3%85FastDFS.md#1-centos%E4%B8%8B%E5%AE%89%E8%A3%85fastdfs
