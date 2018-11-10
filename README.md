@@ -30,3 +30,8 @@ zuul:
         serviceId: upload-service
         strip-prefix: false
 ```
+## fastDFS的安装
+卧槽，快搞死我了，一直报错。发现课件和视频上的不一致--但是最主要原因是配置文件的ip写错了。。。
+测试安装成功命令 在 /etc/fdfs 下 执行  成功会返回一个路径
+/usr/bin/fdfs_upload_file  client.conf /2.png
+https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86/centos%E5%AE%89%E8%A3%85FastDFS.md#1-centos%E4%B8%8B%E5%AE%89%E8%A3%85fastdfs
