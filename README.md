@@ -16,7 +16,7 @@ https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1
 ## Zuul的路由过滤
 https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86.md#224%E7%BB%95%E8%BF%87%E7%BD%91%E5%85%B3
 注意一下：这个链接的方案是不对的。需要采取这种方法
-
+这里比较容易迷惑，再仔细说明一下，下面的配置的作用仅仅是改变下路由的路径。没其他作用，请求还是要走网关的。要是不想走网关，需要去nginx中配置一下。可以看课件，没毛病。
 http://api.leyou.com/api/item/brand/page   映射成   item-service/brand/page  
 http://api.leyou.com/api/upload/image      映射成   upload-service/upload/image   
 ```html
