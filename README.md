@@ -38,3 +38,6 @@ zuul:
 我安装的时候nginx路径是 /usr/sbin/nginx   配置文件是 /usr/local/nginx-1.10.0/conf/nginx.conf
 
 https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86/centos%E5%AE%89%E8%A3%85FastDFS.md#1-centos%E4%B8%8B%E5%AE%89%E8%A3%85fastdfs
+
+## 静态页面实现服务器热部署
+https://github.com/coder-lzh/leyou/blob/master/day10-%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86/day10-%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86.md#32live-server
