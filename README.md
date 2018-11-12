@@ -41,3 +41,6 @@ https://github.com/coder-lzh/leyou/blob/master/day08-%E5%93%81%E7%89%8C%E7%AE%A1
 
 ## 静态页面实现服务器热部署
 https://github.com/coder-lzh/leyou/blob/master/day10-%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86/day10-%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86.md#32live-server
+
+## redis的安装
+https://github.com/coder-lzh/leyou/blob/master/day16-%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C/redis%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.md#redis%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE
