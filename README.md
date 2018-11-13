@@ -44,3 +44,6 @@ https://github.com/coder-lzh/leyou/blob/master/day10-%E5%95%86%E5%93%81%E7%AE%A1
 
 ## redis的安装
 https://github.com/coder-lzh/leyou/blob/master/day16-%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C/redis%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.md#redis%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE
+
+## 后台数据的校验
+https://github.com/coder-lzh/leyou/blob/master/day16-%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C/day16-%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C.md#651%E4%BB%80%E4%B9%88%E6%98%AFhibernate-validator
