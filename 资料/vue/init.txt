@@ -1,0 +1,33 @@
+
+npm 安装live-server
+npm install -g live-server
+
+启动：
+live-server
+
+参数：
+--port=8080 指定端口
+--host=127.0.0.1 指定地址
+
+--port=NUMBER - select port to use, default: PORT env var or 8080  
+--host=ADDRESS - select host address to bind to, default: IP env var or 0.0.0.0 (“any address”)  
+--no-browser - suppress automatic web browser launching  
+--browser=BROWSER - specify browser to use instead of system default  
+--quiet | -q - suppress logging  
+--verbose | -V - more logging (logs all requests, shows all listening IPv4 interfaces, etc.)  
+--open=PATH - launch browser to PATH instead of server root  
+--watch=PATH - comma-separated string of paths to exclusively watch for changes (default: watch everything)  
+--ignore=PATH - comma-separated string of paths to ignore (anymatch-compatible definition)  
+--ignorePattern=RGXP - Regular expression of files to ignore (ie .*\.jade) (DEPRECATED in favor of --ignore)  
+--middleware=PATH - path to .js file exporting a middleware function to add; can be a name without path nor extension to reference bundled middlewares in middleware folder  
+--entry-file=PATH - serve this file (server root relative) in place of missing files (useful for single page apps)  
+--mount=ROUTE:PATH - serve the paths contents under the defined route (multiple definitions possible)  
+--spa - translate requests from /abc to /#/abc (handy for Single Page Apps)  
+--wait=MILLISECONDS - (default 100ms) wait for all changes, before reloading  
+--htpasswd=PATH - Enables http-auth expecting htpasswd file located at PATH  
+--cors - Enables CORS for any origin (reflects request origin, requests with credentials are supported)  
+--https=PATH - PATH to a HTTPS configuration module  
+--proxy=ROUTE:URL - proxy all requests for ROUTE to URL  
+--help | -h - display terse usage hint and exit  
+--version | -v - display version and exit  
+
