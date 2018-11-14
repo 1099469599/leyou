@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://org.opencloudb/">
+
+	<schema name="PINYOUGOUDB" checkSQLschema="false" sqlMaxLimit="100">
+		<table name="tb_brand" dataNode="goods"  />
+		<table name="tb_specification" dataNode="goods"  />
+		<table name="tb_specification_option" dataNode="goods"  />
+		<table name="tb_type_template" dataNode="goods"  />
+		<table name="tb_item_cat" dataNode="goods"  />
+		<table name="tb_goods" dataNode="goods"  />
+		<table name="tb_goods_desc" dataNode="goods"  />
+		<table name="tb_item" dataNode="goods"  />
+		<table name="tb_seller" dataNode="goods"  />
+
+		<table name="tb_content" dataNode="content"  />
+		<table name="tb_content_category" dataNode="content"  />
+
+		<table name="tb_order" dataNode="order-1,order-2,order-3" rule="sharding-by-murmur-order" />
+		<table name="tb_order_item" dataNode="order-1,order-2,order-3"  rule="sharding-by-murmur-order" />
+		<table name="tb_pay_log" dataNode="order-1,order-2,order-3" rule="sharding-by-murmur-order"  />
+		
+		<table name="tb_seckill_goods" dataNode="seckill"  />
+		<table name="tb_seckill_order" dataNode="seckill"  />
+
+		<table name="tb_user" dataNode="user"  />
+		<table name="tb_address" dataNode="user"  />
+		<table name="tb_areas" dataNode="user"  />
+		<table name="tb_cities" dataNode="user"  />
+		<table name="tb_provinces" dataNode="user"  />
+		<table name="tb_freight_template" dataNode="user"  />
+	</schema>
+
+	<dataNode name="goods" dataHost="localhost1" database="pinyougou-goods" />
+	<dataNode name="content" dataHost="localhost1" database="pinyougou-content" />
+	<dataNode name="order-1" dataHost="localhost1" database="pinyougou-order-1" />
+	<dataNode name="order-2" dataHost="localhost1" database="pinyougou-order-2" />
+	<dataNode name="order-3" dataHost="localhost1" database="pinyougou-order-3" />
+    <dataNode name="seckill" dataHost="localhost1" database="pinyougou-seckill" />
+    <dataNode name="user" dataHost="localhost1" database="pinyougou-user" />
+
+	<dataHost name="localhost1" maxCon="1000" minCon="10" balance="0"
+		writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<writeHost host="hostM1" url="192.168.25.142:3306" user="root"
+			password="123456">
+		</writeHost>
+	</dataHost>
+	
+</mycat:schema>

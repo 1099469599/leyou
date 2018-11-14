@@ -1,0 +1,5 @@
+#@SwitchHosts! {"url": null, "icon_idx": 0, "title": "itcast"}
+# itcast
+172.16.0.185 www.test.com
+172.16.0.185 www.abc.com
+
